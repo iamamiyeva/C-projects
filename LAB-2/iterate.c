@@ -3,7 +3,7 @@
 
 int main()
 {
-    int v[] = {0xCAFEBABE, 0xDEADBEEF, 0x0B00B135, 0xBAADF00D, 0xDEADC0DE, 0x1EE71EE7};
+    int v[] = {0xCAFEBABE, 0xDEADBEEF, 0x0B00B135, 0xBAADF00D, 0xDEADC0DE, 0x1EE71EE7}; //hexa numbers
 
     unsigned char *p1 = (unsigned char *)v;
     printf("--- 1 byte steps ---\n");
